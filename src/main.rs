@@ -1,0 +1,5 @@
+use proj_rust_vlada_naukma::list_parser;
+
+pub fn main() {
+    println!("{:?}", list_parser::list("[1,1,2,3,5,8]"));
+}
